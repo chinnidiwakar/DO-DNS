@@ -4,6 +4,8 @@ import socket
 import dns.resolver
 import dns.exception
 
+print "\n\033[1;32mWelcome To The DO DNS V1.0  by Chinni Diwakar\033[1;m\n\n"
+
 a = dns.resolver.Resolver()
 
 userinput = raw_input("Give a domain Name: ")
